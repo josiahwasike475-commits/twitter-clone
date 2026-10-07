@@ -31,7 +31,7 @@
       })
     })    
   
-    firebase.firestore().collection("tweets").where("userId","==",uid).get().then(queryTweets=>{
+    firebase.firestore().collection("tweets").where.("userId","==",uid).orderBy("createdOn","asc").get().then(queryTweets=>{
   queryTweets.forEach((tweetDoc)=>{
         let tweet = tweetDoc.data()
         // console.log(tweet);
