@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.cola{
+       display: grid;
+    grid-template-columns:20% 1fr 19%;
+    background-color: grey;
+    gap: 4px;
+    height: 100%;
+    width: 100%;
+    border-color: #808080;
+
+}
+.post{
+    height: 100px;
+    border-bottom: 1px solid grey;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:4px ;
+}
+.mm{
+    font-size:10px;
+    
+}
+/* .think{
+     /* height: 150px; */
+/* } */ */
+.plug textarea{
+    height: 50px;
+    width: 99%;
+    border: none;
+        border-bottom: 1px solid grey; 
+}
+
+.tweet-btn{
+    color: aqua;
+    background-color:blue;
+    border-radius: 20px;
+    width: 60px;
+    display: flex;
+    flex-direction: end;
+}
+
+.one{
+    background-color: #fff;
+    height: 100%;
+
+
+}
+.one img{
+height: 100%;
+width: 50px;
+}
+.tags{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    cursor: pointer;
+    padding:20px;
+    margin-top: 50px;
+}
+.mmm{
+    border-radius: 8px ;
+    border: none;
+    background-color: skyblue;
+}
+.tags a{
+    text-decoration: none;
+    display: flex;
+    gap: 20px;
+    /* flex-direction: column; */
+    margin-left: 30px;
+    align-items: center;
+}
+.plug{
+height: 80px;
+background-color:white;
+}
+.sem button{
+    cursor: pointer;
+    background-color: blue;
+    font-family: sans-serif;
+    color: #fff;
+    font-size: larger;
+    width: 30vh;
+    height: 30px;
+    border-radius: 30px;
+}
+
+.shaft img{
+    height: 90px;
+    width: 100%;
+}
+
+.two{
+    background-color: white;
+}
+.three{
+    height: 100%;
+}
+.two {
+  width: 600px;
+  border-right: 1px solid #2f3336;
+  border-left: 1px solid #2f3336;
+  background: #000;
+  position: relative;
+}
+
+.two > img:first-child {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+}
+.mage{
+   width: 100%;
+  height: 100px; 
+}
+
+
+.mage img {
+  width: 150px;
+  height: 150px;
+  border-radius: 80%;
+  border: 4px solid #000;
+  position: absolute;
+  top: 125px;
+  left: 16px;
+  object-fit: cover;
+  background: #333;
+}
+
+.two h1 {
+  margin-left: 16px;
+  font-size: 20px;
+  font-weight: 800;
+  color: #e7e9ea;
+}
+
+.two p {
+  margin-left: 16px;
+  color: #71767b;
+  font-size: 15px;
+}
